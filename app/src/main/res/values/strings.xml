@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Пойдем гулять?</string>
+    <string name="sign_in">Вход</string>
+    <string name="log_in">Регистрация</string>
+    <string name="sign_in2">Войти</string>
+    <string name="log_in2">Зарегистрироваться</string>
+    <string name="email">Почта</string>
+    <string name="nameCafe1">Территория кофе</string>
+    <string name="btn_map">Карта</string>
+    <string name="name">Имя пользователя</string>
+    <string name="pass">Пароль</string>
+    <string name="date">Дата \nрождения</string>
+    <string name="pass_2">Повторите пароль</string>
+    <string name="hello">Привет</string>
+    <string name="error">Ошибка</string>
+    <string name="pass_pr">Пароли не совпадают</string>
+    <string name="abpass1">Пароль должен быть длиннее 6 символов</string>
+    <string name="abpass2">Пароль должен содержать спец.символы, цифры и заглавные и строчные буквы</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--android:gravity="center"-->
+    <!--android:layout_centerHorizontal="true">-->
+    <!-- Заголовок регистрации-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/edittx_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="177dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/edittx_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pass"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/edittx_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/text_pass2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pass_2"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/edittx_pass2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <!-- Кнопка регистрации -->
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/log_in2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_forer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="528dp" />
+
+        <TextView
+            android:id="@+id/attation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abpass1"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="294dp" />
+
+        <TextView
+            android:id="@+id/attation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abpass2"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
